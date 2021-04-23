@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    //border: 1px solid black;
+}
+
+
+
+
+body{
+    
+    height: 100vh;
+    //background-image: url(https://wallpaperaccess.com/full/1251765.jpg);
+   //background-image: url(https://ak.picdn.net/shutterstock/videos/4158838/thumb/1.jpg);
+  // background-image: url(https://cdn.hipwallpaper.com/i/31/24/fNcb3M.jpg);
+  //background-image: url(https://www.advancedskincarespaandsalon.com/wp-content/uploads/2019/06/Spa-1.jpg);
+  background-image: url(https://wallpaperaccess.com/full/1373421.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+   
+
+    
+}
+
+h1{
+    margin: 10px;
+    text-align: center;
+    
+}
+
+nav{
+    width:100%;
+    background-color: beige;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+        p{
+            font-weight: 600;
+        }
+}
+.navv{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 25px;
+    p{
+        font-weight: 600;
+    }
+    background-color: rgb(223, 223, 196);
+}
+h2{
+    text-align: center;
+    margin: 20px;
+}
+.wrapp{
+    padding: 20px;
+    line-height: 1.5em;
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+    width:50%
+    
+    
+}
+.btn{
+    margin: 50px;
+    display: flex;
+    gap: 40px;
+}
+
+button{
+    padding: 15px;
+    width: 40%;
+    border-radius:5px;
+    outline: none;
+    border: none;
+    &:hover{
+        transform: scale(1.2);
+        background-color: rgb(223, 223, 196);
+    }
+}
+
+.img{
+    text-align: center;
+}

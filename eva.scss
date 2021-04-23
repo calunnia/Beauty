@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    //border: 1px solid black;
+}
+body{
+    height: 100vh;
+   // background-image: url(https://wallpaperaccess.com/full/1251765.jpg);
+   //background-image: url(https://ak.picdn.net/shutterstock/videos/4158838/thumb/1.jpg);
+   //background-image: url(https://cdn.hipwallpaper.com/i/31/24/fNcb3M.jpg);
+   //background-image: url(https://static.wixstatic.com/media/30e294_f0672049e09b4233b51f3aa9a242d19f~mv2.jpg/v1/fill/w_564,h_564,al_c,q_80,usm_0.66_1.00_0.01/30e294_f0672049e09b4233b51f3aa9a242d19f~mv2.webp);
+   // background-image: url(https://www.mariacelisse.co.uk/images/eve-taylor/eve_taylor_product_shot.jpg?v=1);
+   background-image: url(https://www.alexandrahouse.org.uk/wp-content/uploads/2018/09/Products-for-web-300x450.jpg);
+    background-repeat: no-repeat;
+   //background-size: cover;  
+    background-position: right;
+   
+}
+
+
+h1{
+    margin: 10px;
+    text-align: center;
+    //color: ivory;
+}
+
+nav{
+    width:100%;
+    background-color: beige;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+        p{
+            font-weight: 600;
+        }
+}
+.navv{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 25px;
+    p{
+        font-weight: 600;
+    }
+    background-color: rgb(223, 223, 196);
+}
+h2{
+   // color: ivory;
+    text-align: center;
+}
+
+.main{
+    margin: 10px;
+padding: 20px;
+line-height: 2em;
+font-size: 1.5em;
+background-color: rgba(201, 180, 172, 0.7);
+}

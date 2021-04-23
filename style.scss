@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body{
+   // position:absolute;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://cdn.hipwallpaper.com/i/31/24/fNcb3M.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header{
+    background-color: rgb(243, 235, 236);
+}
+
+
+h1{
+    font-family: 'Poppins', sans-serif; 
+    text-align: center;
+    padding: 20px;
+}
+
+.quote{
+    font-family: 'EB Garamond', serif;  
+    background-color: rgb(58, 2, 14);
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5em;
+    color: beige;
+}
+
+
+nav{
+    background-color: beige;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+        p{
+            font-weight: 600;
+        }
+}
+.navv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 25px;
+    p{
+        font-weight: 600;
+    }
+    background-color: rgb(223, 223, 196);
+}
+.textbox{
+    font-size: 1.5em;
+    border:2px solid rgb(55, 104, 6);
+    width: 40%;
+    padding:15px;
+    position: relative;
+    left: 110vh;
+    top:10vh;
+    line-height: 30px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    
+}

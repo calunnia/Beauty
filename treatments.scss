@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    //border: 1px solid black;
+}
+body{
+    height: 100vh;
+    //background-image: url(https://wallpaperaccess.com/full/1251765.jpg);
+   //background-image: url(https://ak.picdn.net/shutterstock/videos/4158838/thumb/1.jpg);
+  // background-image: url(https://cdn.hipwallpaper.com/i/31/24/fNcb3M.jpg);
+ background-image: url(https://www.advancedskincarespaandsalon.com/wp-content/uploads/2019/06/Spa-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+   
+
+    
+}
+
+h1{
+    margin: 10px;
+    text-align: center;
+    color: bisque;
+}
+
+nav{
+    width:100%;
+    background-color: beige;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+        p{
+            font-weight: 600;
+        }
+}
+.navv{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 25px;
+    p{
+        font-weight: 600;
+    }
+    background-color: rgba(223, 223, 196, 0.6);
+}
+h2{
+    text-align: center;
+    margin: 20px;
+}
+
+.wrapp{
+    width: 50%;
+    font-size: 1.5em;
+    padding: 20px;
+    line-height: 2em;
+    margin: 30px;
+    background-color: rgba(167, 134, 107, 0.2);
+    border: 5px solid rgba(151, 92, 44,0.2);
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    position: relative;
+    left:90vh;
+    
+   // margin: auto;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+box-shadow: 5px 5px 15px 5px #000000;
+
+}
+
+button{
+    background-color: bisque;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none; 
+   /*   &:hover{
+        transform: scale(1.25);
+        background-color: rgb(229, 183, 153);
+        color: rgb(102, 27, 27);
+    } */
+
+
+}
+
+.gift, .massage, .waxing, .new, .mix, .facials{
+    margin-bottom: 35px;
+    color: bisque;
+    border: 5px solid rgba(151, 92, 44,0.2);
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #000000;
+    &:hover{
+        transform: scale(1.25);
+        background-color: rgb(230, 191, 165);
+        color: rgb(102, 27, 27);
+    }
+
+}

@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background: #d6bbaa;
+  background: linear-gradient(162deg, rgba(214, 187, 170, 0.739933) 0%, rgba(126, 79, 47, 0.863183) 18%, rgba(31, 8, 3, 0.958) 100%);
+  /*background: linear-gradient(162deg, rgba(195,158,135,0.7399334733893557) 0%, rgba(126,79,47,0.8631827731092436) 27%, rgba(91,34,19,0.958420868347339) 100%); */
+}
+
+h1 {
+  margin: 10px;
+  text-align: center;
+}
+
+nav {
+  width: 100%;
+  background-color: beige;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 10px;
+}
+
+nav p {
+  font-weight: 600;
+}
+
+.navv {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 25px;
+  background-color: #dfdfc4;
+}
+
+.navv p {
+  font-weight: 600;
+}
+
+h1 {
+  margin: 20px;
+}
+
+.spray {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2em;
+  text-align: center;
+  line-height: 1.9em;
+}
+
+.btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+button {
+  padding: 10px;
+  background-color: inherit;
+  margin: 30px;
+}
+/*# sourceMappingURL=spray.css.map */

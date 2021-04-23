@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    //border: 1px solid black;
+}
+body{
+    height: 100vh;
+    //background-image: url(https://wallpaperaccess.com/full/1251765.jpg);
+   // background-image: url(https://ak.picdn.net/shutterstock/videos/4158838/thumb/1.jpg);
+   //background-image: url(https://cdn.hipwallpaper.com/i/31/24/fNcb3M.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+    background-position: center;
+    background: rgb(214,187,170);
+    background: linear-gradient(162deg, rgba(214,187,170,0.7399334733893557) 0%, rgba(126,79,47,0.8631827731092436) 18%, rgba(31, 8, 3, 0.958) 100%);
+
+   /*background: linear-gradient(162deg, rgba(195,158,135,0.7399334733893557) 0%, rgba(126,79,47,0.8631827731092436) 27%, rgba(91,34,19,0.958420868347339) 100%); */
+}
+
+
+h1{
+    margin: 10px;
+    text-align: center;
+}
+
+nav{
+    width:100%;
+    background-color: beige;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+        p{
+            font-weight: 600;
+        }
+}
+.navv{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 25px;
+    p{
+        font-weight: 600;
+    }
+    background-color: rgb(223, 223, 196);
+}
+
+h1{
+    margin: 20px;
+}
+.spray{
+       
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2em;
+    text-align: center;
+    line-height: 1.9em;
+
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    padding: 10px;
+    background-color: inherit;
+    margin:30px;
+
+}
